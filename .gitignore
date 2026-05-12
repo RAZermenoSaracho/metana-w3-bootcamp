@@ -1,0 +1,33 @@
+# Personaliced git ignore for Ricardo's Solidity projects
+solidity-sol81-ricardo/
+foundry/foundry-play/
+foundry/foundry1/
+foundry/hello-foundry/
+notes.txt
+notes_module_3.txt
+
+# Compiler files
+cache/
+out/
+
+# Commonly ignored directories
+.logs/
+.ignore/
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+.env.*
+!.env.example
+
+# Ignore lib directory for dependencies
+lib/
+
+.DS_Store
